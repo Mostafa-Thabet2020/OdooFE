@@ -1,0 +1,18 @@
+header{
+    background-color: #6610f2;
+
+}
+.navbar{
+    background-color: #6610f2;
+
+}
+body {
+    margin: 0;
+    font-family: "Roboto", "Odoo Unicode Support Noto", sans-serif;
+    font-size: 1.08333333rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #444B5A;
+    text-align: left;
+    background-color: #8f8f8f;
+}
