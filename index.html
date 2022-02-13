@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,1051 +8,1389 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js%22%3E"> </script>
-          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-         
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js%22%3E"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
     <title>Odoo</title>
 </head>
+
 <body>
-   
-    
-        <header >
-            <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">Accounting</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Accounting</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
-                      
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Dashboard
-                                        </a>
-                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                          <li><a class="dropdown-item" href="#"></a></li>
-                                          <li><a class="dropdown-item" href="#"></a></li>
-                                          <li><a class="dropdown-item" href="#"></a></li>
-                                        </ul>
-                                       </li>
-                                      <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Customers
-                                        </a>
-                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=111">Invoices</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=112">Credit Notes</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=114">Payments</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=223">Follow-Up Reports</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=115">Products</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=116">Customers</a></li>
-                                        </ul>
-                                      </li>
-                                      <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Vendors
-                                        </a>
-                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=118">Bills</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=119"> Refunds</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=121"> Payments</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=122">Products</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=123">Vendors</a></li>
-                                        </ul>
-                                      </li>
-                                      <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Accounting
-                                        </a>
-                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=126">Journal Entries</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=129">Sales</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=130">Purchases</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=131">Bank and Cash</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=132">Miscellaneous</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=134">General Ledger</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=135">Partner Ledger</a></li>
-                                          <li><a class="dropdown-item" href="/Assets.html">Assets</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=180&cids=1&action=296&model=account.transfer.model&view_type=list">Automatic Transfers</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=180&cids=1&action=323&model=account.asset&view_type=kanban">Deferred Revenues</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=180&cids=1&action=327&model=account.asset&view_type=kanban">Deferred Expenses</a></li>
-                                         
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=180&cids=1&action=275">Reconciliation</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=180&cids=1&action=275">Lock Dates</a></li>
-                                        
-                                        </ul>
-                                      </li>
-                                      <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Reporting                                        </a>
-                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=196">Balance Sheet</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=197">Executive Summary</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=198">Profit and Loss</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=212">Cash Flow Statement </a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=200">Partner Ledger</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=201">Aged Receivable</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=202">Aged Payable</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=204">General Ledger</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=205">Trial Balance</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=206">Consolidated Journals</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=207">Tax Reported</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=209">Journal Audit</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=142">Invoice Analysis</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=211">Unrealized Currency Gains/losses</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=222">Dpreciation Schdule</a></li>
-                                        </ul>
-                                      </li>
-                                      <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Configuration
-                                        </a>
-                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=145">Setting</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=147">Payment Terms</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=224">Follow-up Levels </a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=148">Incoterms</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=150">Add a Bank Accounnt</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=151">Reconciliation Models</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=153">Chart of Account</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=154">Taxes </a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=155">Journals </a></li>
-                                          
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=157">Currencies </a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=158">Fiscal Positions </a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=159">Journal Group</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=190">Payment Acquirers</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=216">Asset Models </a></li>
-                                          
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=219">Deferred Revenue Models</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=163">Product Categories</a></li>
-                                          <li><a class="dropdown-item" href="https://ural-federal-university8.odoo.com/web#menu_id=221">Deferred Expense Models</a></li>
 
-                                        </ul>
-                                      </li>
-                                      <a class="nav-link dropdown-toggle" href="#Employees" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Employees
-                                    </a>
-                      </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dashboard
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#"></a></li>
+                                <li><a class="dropdown-item" href="#"></a></li>
+                                <li><a class="dropdown-item" href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Customers
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=111">Invoices</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=112">Credit
+                                        Notes</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=114">Payments</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=223">Follow-Up
+                                        Reports</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=115">Products</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=116">Customers</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Vendors
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=118">Bills</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=119"> Refunds</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=121"> Payments</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=122">Products</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=123">Vendors</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Accounting
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=126">Journal
+                                        Entries</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=129">Sales</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=130">Purchases</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=131">Bank and
+                                        Cash</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=132">Miscellaneous</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=134">General
+                                        Ledger</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=135">Partner
+                                        Ledger</a></li>
+                                <li><a class="dropdown-item" href="Assets.html">Assets</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=180&cids=1&action=296&model=account.transfer.model&view_type=list">Automatic
+                                        Transfers</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=180&cids=1&action=323&model=account.asset&view_type=kanban">Deferred
+                                        Revenues</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=180&cids=1&action=327&model=account.asset&view_type=kanban">Deferred
+                                        Expenses</a></li>
+
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=180&cids=1&action=275">Reconciliation</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=180&cids=1&action=275">Lock
+                                        Dates</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Reporting </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=196">Balance
+                                        Sheet</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=197">Executive
+                                        Summary</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=198">Profit and
+                                        Loss</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=212">Cash Flow
+                                        Statement </a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=200">Partner
+                                        Ledger</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=201">Aged
+                                        Receivable</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=202">Aged
+                                        Payable</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=204">General
+                                        Ledger</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=205">Trial
+                                        Balance</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=206">Consolidated
+                                        Journals</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=207">Tax
+                                        Reported</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=209">Journal
+                                        Audit</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=142">Invoice
+                                        Analysis</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=211">Unrealized
+                                        Currency Gains/losses</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=222">Dpreciation
+                                        Schdule</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Configuration
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=145">Setting</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=147">Payment
+                                        Terms</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=224">Follow-up
+                                        Levels </a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=148">Incoterms</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=150">Add a Bank
+                                        Accounnt</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=151">Reconciliation
+                                        Models</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=153">Chart of
+                                        Account</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=154">Taxes </a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=155">Journals </a>
+                                </li>
+
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=157">Currencies </a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=158">Fiscal
+                                        Positions </a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=159">Journal
+                                        Group</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=190">Payment
+                                        Acquirers</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=216">Asset Models
+                                    </a></li>
+
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=219">Deferred
+                                        Revenue Models</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=163">Product
+                                        Categories</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://ural-federal-university8.odoo.com/web#menu_id=221">Deferred
+                                        Expense Models</a></li>
+
+                            </ul>
+                        </li>
+                        <a class="nav-link dropdown-toggle" href="#Employees" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Employees
+                        </a>
+                        </li>
                     </ul>
-                  </div>
                 </div>
-              </nav>
-        </header>
-<button><a href="">Create</a></button>
-<div class="o_kanban_view oe_background_grey o_kanban_dashboard o_account_kanban o_kanban_ungrouped"><div class="oe_kanban_color_11 o_kanban_record" modifiers="{}" tabindex="0" role="article" id="table">
-                            
-                            
-                            
-  <div class="o_kanban_card_header" modifiers="{}">
-      <div class="o_kanban_card_header_title" modifiers="{}">
-          <div class="o_primary" modifiers="{}">
-              <a modifiers="{}" data-type="object" data-name="open_action" href="#" class=" oe_kanban_action oe_kanban_action_a"><span>Customer Invoices</span></a>
-              
-          </div>
-          
-      </div>
-      <div class="o_kanban_manage_button_section" modifiers="{}">
-          <a class="o_kanban_manage_toggle_button" href="#" modifiers="{}"><i class="fa fa-ellipsis-v" aria-label="Selection" role="img" title="Selection" modifiers="{}"></i></a>
-      </div>
-  </div>
-
-      <div class="container o_kanban_card_content o_sample_data" modifiers="{}">
-          <div class="row" modifiers="{}">
-              
-              
-  <div class="col-12 col-sm-5 mb-3 mb-sm-0 o_kanban_primary_left" modifiers="{}">
-      
-          <button class="btn btn-primary o_invoice_new oe_kanban_action oe_kanban_action_button" modifiers="{}" options="{}" data-type="object" data-name="action_create_new" type="button">
-              <span modifiers="{}">New Invoice</span>
-          </button>
-      
-      
-  </div>
-  <div class="col-12 col-sm-7 o_kanban_primary_right" modifiers="{}">
-      
-      
-      
-      
-  </div>
-
-              
-          </div>
-          
-  <div class="o_dashboard_graph o_field_widget o_graph_barchart" name="kanban_dashboard_graph"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div><canvas style="display: block; height: 74px; width: 561px;" width="1122" height="148" class="chartjs-render-monitor"></canvas></div>
-
-      </div><div class="container o_kanban_card_manage_pane dropdown-menu" role="menu" modifiers="{}">
-          
-
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <button><a href="">Create</a></button>
+        <div class="o_kanban_view oe_background_grey o_kanban_dashboard o_account_kanban o_kanban_ungrouped">
+            <div class="oe_kanban_color_11 o_kanban_record" modifiers="{}" tabindex="0" role="article" id="table">
+    
+    
+    
+                <div class="o_kanban_card_header" modifiers="{}">
+                    <div class="o_kanban_card_header_title" modifiers="{}">
+                        <div class="o_primary" modifiers="{}">
+                            <a modifiers="{}" data-type="object" data-name="open_action" href="#"
+                                class=" oe_kanban_action oe_kanban_action_a"><span>Customer Invoices</span></a>
+    
+                        </div>
+    
+                    </div>
+                    <div class="o_kanban_manage_button_section" modifiers="{}">
+                        <a class="o_kanban_manage_toggle_button" href="#" modifiers="{}"><i class="fa fa-ellipsis-v"
+                                aria-label="Selection" role="img" title="Selection" modifiers="{}"></i></a>
+                    </div>
+                </div>
+    
+                <div class="container o_kanban_card_content o_sample_data" modifiers="{}">
+                    <div class="row" modifiers="{}">
+    
+    
+                        <div class="col-12 col-sm-5 mb-3 mb-sm-0 o_kanban_primary_left" modifiers="{}">
+    
+                            <button class="btn btn-primary o_invoice_new oe_kanban_action oe_kanban_action_button"
+                                modifiers="{}" options="{}" data-type="object" data-name="action_create_new" type="button">
+                                <span modifiers="{}">New Invoice</span>
+                            </button>
+    
+    
+                        </div>
+                        <div class="col-12 col-sm-7 o_kanban_primary_right" modifiers="{}">
+    
+    
+    
+    
+                        </div>
+    
+    
+                    </div>
+    
+                    <div class="o_dashboard_graph o_field_widget o_graph_barchart" name="kanban_dashboard_graph">
+                        <div class="chartjs-size-monitor">
+                            <div class="chartjs-size-monitor-expand">
+                                <div class=""></div>
+                            </div>
+                            <div class="chartjs-size-monitor-shrink">
+                                <div class=""></div>
+                            </div>
+                        </div><canvas style="display: block; height: 74px; width: 561px;" width="1122" height="148"
+                            class="chartjs-render-monitor"></canvas>
+                    </div>
+    
+                </div>
+                <div class="container o_kanban_card_manage_pane dropdown-menu" role="menu" modifiers="{}">
+    
+    
+    
+    
+    
+    
+                    <div class="row" modifiers="{}">
+                        <div class="col-4 o_kanban_card_manage_section o_kanban_manage_view" modifiers="{}">
+                            <div class="o_kanban_card_manage_title" modifiers="{}">
+                                <span modifiers="{}">View</span>
+                            </div>
+                            <div modifiers="{}">
+                                <a modifiers="{}" data-type="object" data-name="open_action"
+                                    data-context="{'action_name': 'action_move_out_invoice_type'}" href="#"
+                                    class=" oe_kanban_action oe_kanban_action_a">Invoices</a>
+    
+                            </div>
+                            <div id="sale_purchase_refund" modifiers="{}">
+                                <a modifiers="{}" data-type="object" data-name="open_action"
+                                    data-context="{'action_name': 'action_move_out_refund_type'}" href="#"
+                                    class=" oe_kanban_action oe_kanban_action_a">Credit Notes</a>
+    
+                            </div>
+                            <div modifiers="{}">
+                                <a modifiers="{}" data-type="object" data-name="action_open_reconcile" href="#"
+                                    class=" oe_kanban_action oe_kanban_action_a">Payments Matching</a>
+                            </div>
+    
+                            <div modifiers="{}">
+    
+                            </div>
+                        </div>
+    
+                        <div class="col-4 o_kanban_card_manage_section o_kanban_manage_new" modifiers="{}">
+                            <div class="o_kanban_card_manage_title" modifiers="{}">
+                                <span modifiers="{}">New</span>
+                            </div>
+                            <div modifiers="{}">
+                                <a modifiers="{}" data-type="object" data-name="action_create_new" href="#"
+                                    class=" oe_kanban_action oe_kanban_action_a">
+                                    <span modifiers="{}">Invoice</span>
+    
+                                </a>
+                            </div>
+                            <div modifiers="{}">
+                                <a modifiers="{}" data-type="object" data-name="action_create_new"
+                                    data-context="{'refund':True}" href="#" class=" oe_kanban_action oe_kanban_action_a">
+                                    <span modifiers="{}">Credit Note</span>
+    
+                                </a>
+                            </div>
+                            <div modifiers="{}">
+                                <a class="o_button_upload_bill" journal_type="sale" modifiers="{}">
+                                    <span modifiers="{}">Upload Invoices</span>
+                                </a>
+                            </div>
+                        </div>
+    
+                        <div class="col-4 o_kanban_card_manage_section o_kanban_manage_reports" modifiers="{}">
+                            <div class="o_kanban_card_manage_title" modifiers="{}">
+                                <span modifiers="{}">Reporting</span>
+                            </div>
+                            <div modifiers="{}">
+                                <a modifiers="{}" data-type="action" data-name="243" href="#"
+                                    class=" oe_kanban_action oe_kanban_action_a">Invoices Analysis</a>
+    
+                            </div>
+    
+                            <div modifiers="{}">
+                                <a modifiers="{}" data-type="action" data-name="301" href="#"
+                                    class=" oe_kanban_action oe_kanban_action_a">Aged Receivables</a>
+                            </div>
+    
+    
+                            <div modifiers="{}">
+                                <a modifiers="{}" data-type="action" data-name="320" href="#"
+                                    class=" oe_kanban_action oe_kanban_action_a">Follow-up reports</a>
+                            </div>
+                        </div>
+                    </div>
+    
+    
+    
+    
+                    <div class="o_kanban_card_manage_settings row" modifiers="{}">
+                        <div class="col-8" modifiers="{}">
+                            <ul class="oe_kanban_colorpicker" data-field="color" modifiers="{}">
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="0" class="oe_kanban_color_0" title="No color"
+                                        aria-label="No color"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="1" class="oe_kanban_color_1" title="Red"
+                                        aria-label="Red"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="2" class="oe_kanban_color_2" title="Orange"
+                                        aria-label="Orange"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="3" class="oe_kanban_color_3" title="Yellow"
+                                        aria-label="Yellow"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="4" class="oe_kanban_color_4" title="Light blue"
+                                        aria-label="Light blue"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="5" class="oe_kanban_color_5" title="Dark purple"
+                                        aria-label="Dark purple"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="6" class="oe_kanban_color_6" title="Salmon pink"
+                                        aria-label="Salmon pink"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="7" class="oe_kanban_color_7" title="Medium blue"
+                                        aria-label="Medium blue"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="8" class="oe_kanban_color_8" title="Dark blue"
+                                        aria-label="Dark blue"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="9" class="oe_kanban_color_9" title="Fushia"
+                                        aria-label="Fushia"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="10" class="oe_kanban_color_10" title="Green"
+                                        aria-label="Green"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="11" class="oe_kanban_color_11" title="Purple"
+                                        aria-label="Purple"></a>
+                                </li>
+    
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <div class="row o_kanban_card_manage_settings" modifiers="{}">
+                        <div class="col-6" modifiers="{}">
+                            <div class="o_favorite o_field_widget" name="show_on_dashboard"><a href="#"><i
+                                        class="fa fa-star" role="img" aria-label="Remove from Favorites"></i> Remove from
+                                    Favorites</a></div>
+                        </div>
+                        <div class="col-6 text-right mt-1" modifiers="{}">
+                            <a class="dropdown-item oe_kanban_action oe_kanban_action_a" modifiers="{}" data-type="edit"
+                                href="#">Configuration</a>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+            <div class="oe_kanban_color_11 o_kanban_record" modifiers="{}" tabindex="0" role="article">
+    
+    
+    
+                <div class="o_kanban_card_header" modifiers="{}">
+                    <div class="o_kanban_card_header_title" modifiers="{}">
+                        <div class="o_primary" modifiers="{}">
+                            <a modifiers="{}" data-type="object" data-name="open_action" href="#"
+                                class=" oe_kanban_action oe_kanban_action_a"><span>Vendor Bills</span></a>
+    
+                        </div>
+                        <div class="o_secondary" title="Bills to pay" modifiers="{}">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="o_kanban_manage_button_section" modifiers="{}">
+                        <a class="o_kanban_manage_toggle_button" href="#" modifiers="{}"><i class="fa fa-ellipsis-v"
+                                aria-label="Selection" role="img" title="Selection" modifiers="{}"></i></a>
+                    </div>
+                </div>
+    
+                <div class="container o_kanban_card_content o_sample_data" modifiers="{}">
+                    <div class="row" modifiers="{}">
+    
+    
+                        <div class="col-12 col-sm-5 mb-3 mb-sm-0 o_kanban_primary_left" modifiers="{}">
+    
+    
+    
+    
+                            <button class="btn btn-primary oe_kanban_action_button oe_kanban_action oe_kanban_action_button"
+                                journal_type="purchase" modifiers="{}" options="{}" data-type="object"
+                                data-name="action_create_vendor_bill" type="button">
+                                <span modifiers="{}">Upload</span>
+                            </button>
+    
+                            <a class="o_invoice_new oe_kanban_action oe_kanban_action_a" modifiers="{}" data-type="object"
+                                data-name="action_create_new" href="#">Create Manually</a>
+    
+                        </div>
+                        <div class="col-12 col-sm-7 o_kanban_primary_right" modifiers="{}">
+    
+    
+    
+    
+                        </div>
+    
+    
+                    </div>
+    
+                    <div class="o_dashboard_graph o_field_widget o_graph_barchart" name="kanban_dashboard_graph">
+                        <div class="chartjs-size-monitor">
+                            <div class="chartjs-size-monitor-expand">
+                                <div class=""></div>
+                            </div>
+                            <div class="chartjs-size-monitor-shrink">
+                                <div class=""></div>
+                            </div>
+                        </div><canvas style="display: block; height: 74px; width: 561px;" width="1122" height="148"
+                            class="chartjs-render-monitor"></canvas>
+                    </div>
+    
+                </div>
+                <div class="container o_kanban_card_manage_pane dropdown-menu" role="menu" modifiers="{}">
+    
+    
+    
+    
+    
+    
+                    <div class="row" modifiers="{}">
+                        <div class="col-4 o_kanban_card_manage_section o_kanban_manage_view" modifiers="{}">
+                            <div class="o_kanban_card_manage_title" modifiers="{}">
+                                <span modifiers="{}">View</span>
+                            </div>
+                            <div modifiers="{}">
+    
+                                <a modifiers="{}" data-type="object" data-name="open_action"
+                                    data-context="{'action_name': 'action_move_in_invoice_type'}" href="#"
+                                    class=" oe_kanban_action oe_kanban_action_a">Bills</a>
+                            </div>
+                            <div id="sale_purchase_refund" modifiers="{}">
+    
+                                <a modifiers="{}" data-type="object" data-name="open_action"
+                                    data-context="{'action_name': 'action_move_in_refund_type'}" href="#"
+                                    class=" oe_kanban_action oe_kanban_action_a">Refund</a>
+                            </div>
+                            <div modifiers="{}">
+                                <a modifiers="{}" data-type="object" data-name="action_open_reconcile" href="#"
+                                    class=" oe_kanban_action oe_kanban_action_a">Payments Matching</a>
+                            </div>
+    
+                            <div modifiers="{}">
+    
+                            </div>
+                        </div>
+    
+                        <div class="col-4 o_kanban_card_manage_section o_kanban_manage_new" modifiers="{}">
+                            <div class="o_kanban_card_manage_title" modifiers="{}">
+                                <span modifiers="{}">New</span>
+                            </div>
+                            <div modifiers="{}">
+                                <a modifiers="{}" data-type="object" data-name="action_create_new" href="#"
+                                    class=" oe_kanban_action oe_kanban_action_a">
+    
+                                    <span modifiers="{}">Bill</span>
+                                </a>
+                            </div>
+                            <div modifiers="{}">
+                                <a modifiers="{}" data-type="object" data-name="action_create_new"
+                                    data-context="{'refund':True}" href="#" class=" oe_kanban_action oe_kanban_action_a">
+    
+                                    <span modifiers="{}">Refund</span>
+                                </a>
+                            </div>
+    
+                        </div>
+    
+                        <div class="col-4 o_kanban_card_manage_section o_kanban_manage_reports" modifiers="{}">
+                            <div class="o_kanban_card_manage_title" modifiers="{}">
+                                <span modifiers="{}">Reporting</span>
+                            </div>
+                            <div modifiers="{}">
+    
+                                <a modifiers="{}" data-type="action" data-name="242" href="#"
+                                    class=" oe_kanban_action oe_kanban_action_a">Bills Analysis</a>
+                            </div>
+    
+    
+                            <div modifiers="{}">
+                                <a modifiers="{}" data-type="action" data-name="302" href="#"
+                                    class=" oe_kanban_action oe_kanban_action_a">Aged Payables</a>
+                            </div>
+    
+    
+                        </div>
+                    </div>
+    
+    
+    
+    
+                    <div class="o_kanban_card_manage_settings row" modifiers="{}">
+                        <div class="col-8" modifiers="{}">
+                            <ul class="oe_kanban_colorpicker" data-field="color" modifiers="{}">
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="0" class="oe_kanban_color_0" title="No color"
+                                        aria-label="No color"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="1" class="oe_kanban_color_1" title="Red"
+                                        aria-label="Red"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="2" class="oe_kanban_color_2" title="Orange"
+                                        aria-label="Orange"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="3" class="oe_kanban_color_3" title="Yellow"
+                                        aria-label="Yellow"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="4" class="oe_kanban_color_4" title="Light blue"
+                                        aria-label="Light blue"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="5" class="oe_kanban_color_5" title="Dark purple"
+                                        aria-label="Dark purple"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="6" class="oe_kanban_color_6" title="Salmon pink"
+                                        aria-label="Salmon pink"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="7" class="oe_kanban_color_7" title="Medium blue"
+                                        aria-label="Medium blue"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="8" class="oe_kanban_color_8" title="Dark blue"
+                                        aria-label="Dark blue"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="9" class="oe_kanban_color_9" title="Fushia"
+                                        aria-label="Fushia"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="10" class="oe_kanban_color_10" title="Green"
+                                        aria-label="Green"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="11" class="oe_kanban_color_11" title="Purple"
+                                        aria-label="Purple"></a>
+                                </li>
+    
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <div class="row o_kanban_card_manage_settings" modifiers="{}">
+                        <div class="col-6" modifiers="{}">
+                            <div class="o_favorite o_field_widget" name="show_on_dashboard"><a href="#"><i
+                                        class="fa fa-star" role="img" aria-label="Remove from Favorites"></i> Remove from
+                                    Favorites</a></div>
+                        </div>
+                        <div class="col-6 text-right mt-1" modifiers="{}">
+                            <a class="dropdown-item oe_kanban_action oe_kanban_action_a" modifiers="{}" data-type="edit"
+                                href="#">Configuration</a>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+            <div class="oe_kanban_color_0 o_kanban_record" modifiers="{}" tabindex="0" role="article">
+    
+    
+    
+                <div class="o_kanban_card_header" modifiers="{}">
+                    <div class="o_kanban_card_header_title" modifiers="{}">
+                        <div class="o_primary" modifiers="{}">
+                            <a modifiers="{}" data-type="object" data-name="open_action" href="#"
+                                class=" oe_kanban_action oe_kanban_action_a"><span>Miscellaneous Operations</span></a>
+    
+                        </div>
+    
+                    </div>
+                    <div class="o_kanban_manage_button_section" modifiers="{}">
+                        <a class="o_kanban_manage_toggle_button" href="#" modifiers="{}"><i class="fa fa-ellipsis-v"
+                                aria-label="Selection" role="img" title="Selection" modifiers="{}"></i></a>
+                    </div>
+                </div>
+    
+                <div class="container o_kanban_card_content" modifiers="{}">
+                    <div class="row" modifiers="{}">
+    
+    
+    
+                        <div class="col-12 col-sm-4 mb-3 mb-sm-0 o_kanban_primary_left" modifiers="{}">
+                            <button class="btn btn-primary oe_kanban_action oe_kanban_action_button" modifiers="{}"
+                                options="{}" data-type="object" data-name="action_create_new" type="button">
+                                <span modifiers="{}">New Entry</span>
+                            </button>
+                        </div>
+                        <div class="col-12 col-sm-8 o_kanban_primary_right" modifiers="{}">
+                            <div class="o_journal_activity_kanban o_field_widget" name="json_activity_data">
+    
+                                <div class="row">
+                                    <div class="col-8 o_mail_activity">
+                                        <a href="#" class=" o_open_vat_report" data-res-id="1" data-id="1"
+                                            data-model="account.move">
+                                            Tax return for February
+                                        </a>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <span>03/07/2022</span>
+                                    </div>
+                                </div>
+    
+    
+                            </div>
+    
+                        </div>
+    
+                    </div>
+    
+                </div>
+                <div class="container o_kanban_card_manage_pane dropdown-menu" role="menu" modifiers="{}">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+                    <div class="row" modifiers="{}">
+                        <div class="col-4 o_kanban_card_manage_section o_kanban_manage_view" modifiers="{}">
+                            <div class="o_kanban_card_manage_title" modifiers="{}">
+                                <span modifiers="{}">View</span>
+                            </div>
+                            <div modifiers="{}">
+                                <a modifiers="{}" data-type="object" data-name="open_action"
+                                    data-context="{'action_name': 'action_move_journal_line'}" href="#"
+                                    class=" oe_kanban_action oe_kanban_action_a">Journal Entries</a>
+                            </div>
+                            <div modifiers="{}">
+                                <a modifiers="{}" data-type="object" data-name="open_action"
+                                    data-context="{'action_name': 'action_move_journal_line', 'search_default_unposted': 1}"
+                                    href="#" class=" oe_kanban_action oe_kanban_action_a">Entries to Review</a>
+                            </div>
+                            <div modifiers="{}">
+    
+                            </div>
+                        </div>
+    
+                        <div class="col-4 o_kanban_card_manage_section o_kanban_manage_new" modifiers="{}">
+                            <div class="o_kanban_card_manage_title" modifiers="{}">
+                                <span modifiers="{}">New</span>
+                            </div>
+                            <div modifiers="{}">
+                                <a modifiers="{}" data-type="object" data-name="action_create_new" href="#"
+                                    class=" oe_kanban_action oe_kanban_action_a">Journal Entry</a>
+                            </div>
+                        </div>
+    
+                        <div class="col-4 o_kanban_card_manage_section o_kanban_manage_operations" modifiers="{}">
+                            <div class="o_kanban_card_manage_title" modifiers="{}">
+                                <span modifiers="{}">Operations</span>
+                            </div>
+                            <div modifiers="{}">
+                                <a modifiers="{}" data-type="object" data-name="open_action_with_context"
+                                    data-context="{'action_name': 'action_validate_account_move', 'search_default_journal': True}"
+                                    href="#" class=" oe_kanban_action oe_kanban_action_a">Post All Entries</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="o_kanban_card_manage_settings row" modifiers="{}">
+                        <div class="col-8" modifiers="{}">
+                            <ul class="oe_kanban_colorpicker" data-field="color" modifiers="{}">
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="0" class="oe_kanban_color_0" title="No color"
+                                        aria-label="No color"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="1" class="oe_kanban_color_1" title="Red"
+                                        aria-label="Red"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="2" class="oe_kanban_color_2" title="Orange"
+                                        aria-label="Orange"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="3" class="oe_kanban_color_3" title="Yellow"
+                                        aria-label="Yellow"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="4" class="oe_kanban_color_4" title="Light blue"
+                                        aria-label="Light blue"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="5" class="oe_kanban_color_5" title="Dark purple"
+                                        aria-label="Dark purple"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="6" class="oe_kanban_color_6" title="Salmon pink"
+                                        aria-label="Salmon pink"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="7" class="oe_kanban_color_7" title="Medium blue"
+                                        aria-label="Medium blue"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="8" class="oe_kanban_color_8" title="Dark blue"
+                                        aria-label="Dark blue"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="9" class="oe_kanban_color_9" title="Fushia"
+                                        aria-label="Fushia"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="10" class="oe_kanban_color_10" title="Green"
+                                        aria-label="Green"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="11" class="oe_kanban_color_11" title="Purple"
+                                        aria-label="Purple"></a>
+                                </li>
+    
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <div class="row o_kanban_card_manage_settings" modifiers="{}">
+                        <div class="col-6" modifiers="{}">
+                            <div class="o_favorite o_field_widget" name="show_on_dashboard"><a href="#"><i
+                                        class="fa fa-star" role="img" aria-label="Remove from Favorites"></i> Remove from
+                                    Favorites</a></div>
+                        </div>
+                        <div class="col-6 text-right mt-1" modifiers="{}">
+                            <a class="dropdown-item oe_kanban_action oe_kanban_action_a" modifiers="{}" data-type="edit"
+                                href="#">Configuration</a>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+            <div class="oe_kanban_color_0 o_kanban_record" modifiers="{}" tabindex="0" role="article">
+    
+    
+    
+                <div class="o_kanban_card_header" modifiers="{}">
+                    <div class="o_kanban_card_header_title" modifiers="{}">
+                        <div class="o_primary" modifiers="{}">
+                            <a modifiers="{}" data-type="object" data-name="open_action" href="#"
+                                class=" oe_kanban_action oe_kanban_action_a"><span>Bank</span></a>
+    
+                        </div>
+    
+                    </div>
+                    <div class="o_kanban_manage_button_section" modifiers="{}">
+                        <a class="o_kanban_manage_toggle_button" href="#" modifiers="{}"><i class="fa fa-ellipsis-v"
+                                aria-label="Selection" role="img" title="Selection" modifiers="{}"></i></a>
+                    </div>
+                </div>
+    
+                <div class="container o_kanban_card_content o_sample_data" modifiers="{}">
+                    <div class="row" modifiers="{}">
+    
+    
+                        <div id="dashboard_bank_cash_left" class="col-12 col-sm-5 mb-3 mb-sm-0 o_kanban_primary_left"
+                            modifiers="{}">
+    
+    
+    
+    
+    
+                            <button attrs="{'invisible': [('account_online_account_id', '!=', False)]}"
+                                class="btn btn-primary oe_kanban_action oe_kanban_action_button"
+                                modifiers="{&quot;invisible&quot;:[[&quot;account_online_account_id&quot;,&quot;!=&quot;,false]]}"
+                                options="{}" data-type="object" data-name="action_configure_bank_journal"
+                                type="button">Online Synchronization</button>
+    
+                            <div name="bank_journal_cta" class="mt-3 mt-sm-0" modifiers="{}">
+                                <div name="bank_statement_create_button" modifiers="{}">
+                                    <a class="oe_inline oe_kanban_action oe_kanban_action_a" modifiers="{}"
+                                        data-type="object" data-name="create_bank_statement" href="#">Create</a><span
+                                        name="button_import_placeholder" modifiers="{}">
+                                        <span modifiers="{}">or <a modifiers="{}" data-type="object"
+                                                data-name="import_statement" href="#"
+                                                class=" oe_kanban_action oe_kanban_action_a">Import</a></span>
+                                    </span> Statements
+                                </div>
+    
+    
+    
+    
+    
+                            </div>
+    
+    
+                        </div>
+    
+                        <div id="dashboard_bank_cash_right" class="col-12 col-sm-7 o_kanban_primary_right" modifiers="{}">
+    
+    
+    
+    
+    
+                        </div>
+    
+    
+    
+                    </div>
+    
+                    <div class="o_dashboard_graph o_field_widget o_graph_linechart" name="kanban_dashboard_graph">
+                        <div class="chartjs-size-monitor">
+                            <div class="chartjs-size-monitor-expand">
+                                <div class=""></div>
+                            </div>
+                            <div class="chartjs-size-monitor-shrink">
+                                <div class=""></div>
+                            </div>
+                        </div><canvas style="display: block; height: 74px; width: 561px;" width="1122" height="148"
+                            class="chartjs-render-monitor"></canvas>
+                    </div>
+    
+                </div>
+                <div class="container o_kanban_card_manage_pane dropdown-menu" role="menu" modifiers="{}">
+    
+    
+    
+                    <div class="row" modifiers="{}">
+                        <div class="col-4 o_kanban_card_manage_section o_kanban_manage_view" modifiers="{}">
+                            <div class="o_kanban_card_manage_title" modifiers="{}">
+                                <span role="separator" modifiers="{}">View</span>
+                            </div>
+                            <div modifiers="{}">
+                                <a role="menuitem" modifiers="{}" data-type="object" data-name="open_action_with_context"
+                                    data-context="{'action_name': 'action_bank_statement_tree', 'search_default_journal': True}"
+                                    href="#" class=" oe_kanban_action oe_kanban_action_a">Statements</a>
+    
+                            </div>
+                            <div modifiers="{}">
+                                <a role="menuitem" modifiers="{}" data-type="object" data-name="open_action_with_context"
+                                    data-context="{'action_name': 'action_bank_statement_line', 'search_default_journal': True,'search_default_statement': 1}"
+                                    href="#" class=" oe_kanban_action oe_kanban_action_a">Operations</a>
+                            </div>
+                            <div modifiers="{}">
+                                <a role="menuitem" modifiers="{}" data-type="object" data-name="open_collect_money" href="#"
+                                    class=" oe_kanban_action oe_kanban_action_a">Cust. Payments</a>
+                            </div>
+                            <div modifiers="{}">
+                                <a role="menuitem" modifiers="{}" data-type="object" data-name="open_spend_money" href="#"
+                                    class=" oe_kanban_action oe_kanban_action_a">Vendor Payments</a>
+                            </div>
+                            <div modifiers="{}">
+                                <a role="menuitem" modifiers="{}" data-type="object" data-name="open_transfer_money"
+                                    href="#" class=" oe_kanban_action oe_kanban_action_a">Internal Transfers</a>
+                            </div>
+                            <div modifiers="{}">
+    
+                            </div>
+                        </div>
+    
+                        <div class="col-4 o_kanban_card_manage_section o_kanban_manage_new" modifiers="{}">
+                            <div class="o_kanban_card_manage_title" modifiers="{}">
+                                <span role="separator" modifiers="{}">New</span>
+                            </div>
+    
+                            <div modifiers="{}">
+                                <a modifiers="{}" data-type="object" data-name="import_statement" href="#"
+                                    class=" oe_kanban_action oe_kanban_action_a">Import Statement</a>
+                            </div>
+                            <div name="bank_cash_commands" modifiers="{}">
+    
+                                <a role="menuitem" modifiers="{}" data-type="object" data-name="create_bank_statement"
+                                    href="#" class=" oe_kanban_action oe_kanban_action_a">Statement</a>
+    
+    
+                            </div>
+                            <div modifiers="{}">
+                                <a role="menuitem" modifiers="{}" data-type="object" data-name="create_customer_payment"
+                                    href="#" class=" oe_kanban_action oe_kanban_action_a">Cust. Payment</a>
+                            </div>
+                            <div modifiers="{}">
+                                <a role="menuitem" modifiers="{}" data-type="object" data-name="create_supplier_payment"
+                                    href="#" class=" oe_kanban_action oe_kanban_action_a">Vendor Payment</a>
+                            </div>
+                            <div modifiers="{}">
+                                <a role="menuitem" modifiers="{}" data-type="object" data-name="create_internal_transfer"
+                                    href="#" class=" oe_kanban_action oe_kanban_action_a">Internal Transfer</a>
+                            </div>
+                        </div>
+    
+                        <div class="col-4 o_kanban_card_manage_section o_kanban_manage_reconciliation" modifiers="{}">
+                            <div class="o_kanban_card_manage_title" modifiers="{}">
+                                <span role="separator" modifiers="{}">Reconciliation</span>
+                            </div>
+                            <div modifiers="{}">
+                                <a role="menuitem" modifiers="{}" data-type="object" data-name="open_action_with_context"
+                                    data-context="{'action_name': 'action_account_reconcile_model', 'use_domain': ['|', ('match_journal_ids', '=', False), ('match_journal_ids', 'in', active_id)]}"
+                                    href="#" class=" oe_kanban_action oe_kanban_action_a">Reconciliation Models</a>
+                            </div>
+    
+                            <div modifiers="{}">
+                                <a modifiers="{}" data-type="action" data-name="298" href="#"
+                                    class=" oe_kanban_action oe_kanban_action_a">Reconciliation Report</a>
+                            </div>
+                        </div>
+                    </div>
+    
+    
+    
+    
+    
+    
+    
+                    <div class="o_kanban_card_manage_settings row" modifiers="{}">
+                        <div class="col-8" modifiers="{}">
+                            <ul class="oe_kanban_colorpicker" data-field="color" modifiers="{}">
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="0" class="oe_kanban_color_0" title="No color"
+                                        aria-label="No color"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="1" class="oe_kanban_color_1" title="Red"
+                                        aria-label="Red"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="2" class="oe_kanban_color_2" title="Orange"
+                                        aria-label="Orange"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="3" class="oe_kanban_color_3" title="Yellow"
+                                        aria-label="Yellow"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="4" class="oe_kanban_color_4" title="Light blue"
+                                        aria-label="Light blue"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="5" class="oe_kanban_color_5" title="Dark purple"
+                                        aria-label="Dark purple"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="6" class="oe_kanban_color_6" title="Salmon pink"
+                                        aria-label="Salmon pink"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="7" class="oe_kanban_color_7" title="Medium blue"
+                                        aria-label="Medium blue"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="8" class="oe_kanban_color_8" title="Dark blue"
+                                        aria-label="Dark blue"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="9" class="oe_kanban_color_9" title="Fushia"
+                                        aria-label="Fushia"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="10" class="oe_kanban_color_10" title="Green"
+                                        aria-label="Green"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="11" class="oe_kanban_color_11" title="Purple"
+                                        aria-label="Purple"></a>
+                                </li>
+    
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <div class="row o_kanban_card_manage_settings" modifiers="{}">
+                        <div class="col-6" modifiers="{}">
+                            <div class="o_favorite o_field_widget" name="show_on_dashboard"><a href="#"><i
+                                        class="fa fa-star" role="img" aria-label="Remove from Favorites"></i> Remove from
+                                    Favorites</a></div>
+                        </div>
+                        <div class="col-6 text-right mt-1" modifiers="{}">
+                            <a class="dropdown-item oe_kanban_action oe_kanban_action_a" modifiers="{}" data-type="edit"
+                                href="#">Configuration</a>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+            <div class="oe_kanban_color_0 o_kanban_record" modifiers="{}" tabindex="0" role="article">
+    
+    
+    
+                <div class="o_kanban_card_header" modifiers="{}">
+                    <div class="o_kanban_card_header_title" modifiers="{}">
+                        <div class="o_primary" modifiers="{}">
+                            <a modifiers="{}" data-type="object" data-name="open_action" href="#"
+                                class=" oe_kanban_action oe_kanban_action_a"><span>Cash</span></a>
+    
+                        </div>
+    
+                    </div>
+                    <div class="o_kanban_manage_button_section" modifiers="{}">
+                        <a class="o_kanban_manage_toggle_button" href="#" modifiers="{}"><i class="fa fa-ellipsis-v"
+                                aria-label="Selection" role="img" title="Selection" modifiers="{}"></i></a>
+                    </div>
+                </div>
+    
+                <div class="container o_kanban_card_content o_sample_data" modifiers="{}">
+                    <div class="row" modifiers="{}">
+    
+    
+                        <div id="dashboard_bank_cash_left" class="col-12 col-sm-5 mb-3 mb-sm-0 o_kanban_primary_left"
+                            modifiers="{}">
+    
+    
+    
+    
+    
+                            <button class="btn btn-primary oe_kanban_action oe_kanban_action_button" modifiers="{}"
+                                options="{}" data-type="object" data-name="create_cash_statement" type="button">New
+                                Transaction</button>
+    
+                        </div>
+    
+                        <div id="dashboard_bank_cash_right" class="col-12 col-sm-7 o_kanban_primary_right" modifiers="{}">
+    
+    
+    
+    
+    
+                        </div>
+    
+    
+    
+                    </div>
+    
+                    <div class="o_dashboard_graph o_field_widget o_graph_linechart" name="kanban_dashboard_graph">
+                        <div class="chartjs-size-monitor">
+                            <div class="chartjs-size-monitor-expand">
+                                <div class=""></div>
+                            </div>
+                            <div class="chartjs-size-monitor-shrink">
+                                <div class=""></div>
+                            </div>
+                        </div><canvas style="display: block; height: 75px; width: 561px;" width="1122" height="150"
+                            class="chartjs-render-monitor"></canvas>
+                    </div>
+    
+                </div>
+                <div class="container o_kanban_card_manage_pane dropdown-menu" role="menu" modifiers="{}">
+    
+    
+    
+                    <div class="row" modifiers="{}">
+                        <div class="col-4 o_kanban_card_manage_section o_kanban_manage_view" modifiers="{}">
+                            <div class="o_kanban_card_manage_title" modifiers="{}">
+                                <span role="separator" modifiers="{}">View</span>
+                            </div>
+                            <div modifiers="{}">
+    
+                                <a role="menuitem" modifiers="{}" data-type="object" data-name="open_action_with_context"
+                                    data-context="{'action_name': 'action_view_bank_statement_tree', 'search_default_journal': True}"
+                                    href="#" class=" oe_kanban_action oe_kanban_action_a">Statements</a>
+                            </div>
+                            <div modifiers="{}">
+                                <a role="menuitem" modifiers="{}" data-type="object" data-name="open_action_with_context"
+                                    data-context="{'action_name': 'action_bank_statement_line', 'search_default_journal': True,'search_default_statement': 1}"
+                                    href="#" class=" oe_kanban_action oe_kanban_action_a">Operations</a>
+                            </div>
+                            <div modifiers="{}">
+                                <a role="menuitem" modifiers="{}" data-type="object" data-name="open_collect_money" href="#"
+                                    class=" oe_kanban_action oe_kanban_action_a">Cust. Payments</a>
+                            </div>
+                            <div modifiers="{}">
+                                <a role="menuitem" modifiers="{}" data-type="object" data-name="open_spend_money" href="#"
+                                    class=" oe_kanban_action oe_kanban_action_a">Vendor Payments</a>
+                            </div>
+                            <div modifiers="{}">
+                                <a role="menuitem" modifiers="{}" data-type="object" data-name="open_transfer_money"
+                                    href="#" class=" oe_kanban_action oe_kanban_action_a">Internal Transfers</a>
+                            </div>
+                            <div modifiers="{}">
+    
+                            </div>
+                        </div>
+    
+                        <div class="col-4 o_kanban_card_manage_section o_kanban_manage_new" modifiers="{}">
+                            <div class="o_kanban_card_manage_title" modifiers="{}">
+                                <span role="separator" modifiers="{}">New</span>
+                            </div>
+    
+    
+                            <div name="bank_cash_commands" modifiers="{}">
+    
+    
+                                <a role="menuitem" modifiers="{}" data-type="object" data-name="create_cash_statement"
+                                    href="#" class=" oe_kanban_action oe_kanban_action_a">Statement</a>
+    
+                            </div>
+                            <div modifiers="{}">
+                                <a role="menuitem" modifiers="{}" data-type="object" data-name="create_customer_payment"
+                                    href="#" class=" oe_kanban_action oe_kanban_action_a">Cust. Payment</a>
+                            </div>
+                            <div modifiers="{}">
+                                <a role="menuitem" modifiers="{}" data-type="object" data-name="create_supplier_payment"
+                                    href="#" class=" oe_kanban_action oe_kanban_action_a">Vendor Payment</a>
+                            </div>
+                            <div modifiers="{}">
+                                <a role="menuitem" modifiers="{}" data-type="object" data-name="create_internal_transfer"
+                                    href="#" class=" oe_kanban_action oe_kanban_action_a">Internal Transfer</a>
+                            </div>
+                        </div>
+    
+                        <div class="col-4 o_kanban_card_manage_section o_kanban_manage_reconciliation" modifiers="{}">
+                            <div class="o_kanban_card_manage_title" modifiers="{}">
+                                <span role="separator" modifiers="{}">Reconciliation</span>
+                            </div>
+                            <div modifiers="{}">
+                                <a role="menuitem" modifiers="{}" data-type="object" data-name="open_action_with_context"
+                                    data-context="{'action_name': 'action_account_reconcile_model', 'use_domain': ['|', ('match_journal_ids', '=', False), ('match_journal_ids', 'in', active_id)]}"
+                                    href="#" class=" oe_kanban_action oe_kanban_action_a">Reconciliation Models</a>
+                            </div>
+    
+                            <div modifiers="{}">
+                                <a modifiers="{}" data-type="action" data-name="298" href="#"
+                                    class=" oe_kanban_action oe_kanban_action_a">Reconciliation Report</a>
+                            </div>
+                        </div>
+                    </div>
+    
+    
+    
+    
+    
+    
+    
+                    <div class="o_kanban_card_manage_settings row" modifiers="{}">
+                        <div class="col-8" modifiers="{}">
+                            <ul class="oe_kanban_colorpicker" data-field="color" modifiers="{}">
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="0" class="oe_kanban_color_0" title="No color"
+                                        aria-label="No color"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="1" class="oe_kanban_color_1" title="Red"
+                                        aria-label="Red"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="2" class="oe_kanban_color_2" title="Orange"
+                                        aria-label="Orange"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="3" class="oe_kanban_color_3" title="Yellow"
+                                        aria-label="Yellow"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="4" class="oe_kanban_color_4" title="Light blue"
+                                        aria-label="Light blue"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="5" class="oe_kanban_color_5" title="Dark purple"
+                                        aria-label="Dark purple"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="6" class="oe_kanban_color_6" title="Salmon pink"
+                                        aria-label="Salmon pink"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="7" class="oe_kanban_color_7" title="Medium blue"
+                                        aria-label="Medium blue"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="8" class="oe_kanban_color_8" title="Dark blue"
+                                        aria-label="Dark blue"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="9" class="oe_kanban_color_9" title="Fushia"
+                                        aria-label="Fushia"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="10" class="oe_kanban_color_10" title="Green"
+                                        aria-label="Green"></a>
+                                </li>
+    
+                                <li>
+                                    <a role="menuitem" href="#" data-color="11" class="oe_kanban_color_11" title="Purple"
+                                        aria-label="Purple"></a>
+                                </li>
+    
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <div class="row o_kanban_card_manage_settings" modifiers="{}">
+                        <div class="col-6" modifiers="{}">
+                            <div class="o_favorite o_field_widget" name="show_on_dashboard"><a href="#"><i
+                                        class="fa fa-star" role="img" aria-label="Remove from Favorites"></i> Remove from
+                                    Favorites</a></div>
+                        </div>
+                        <div class="col-6 text-right mt-1" modifiers="{}">
+                            <a class="dropdown-item oe_kanban_action oe_kanban_action_a" modifiers="{}" data-type="edit"
+                                href="#">Configuration</a>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+            <div class="o_kanban_record o_kanban_ghost"></div>
+            <div class="o_kanban_record o_kanban_ghost"></div>
+            <div class="o_kanban_record o_kanban_ghost"></div>
+            <div class="o_kanban_record o_kanban_ghost"></div>
+            <div class="o_kanban_record o_kanban_ghost"></div>
+            <div class="o_kanban_record o_kanban_ghost"></div>
+        </div>
+    
+    </div>
   
-  
 
-  
-  <div class="row" modifiers="{}">
-       <div class="col-4 o_kanban_card_manage_section o_kanban_manage_view" modifiers="{}">
-          <div class="o_kanban_card_manage_title" modifiers="{}">
-              <span modifiers="{}">View</span>
-          </div>
-          <div modifiers="{}">
-              <a modifiers="{}" data-type="object" data-name="open_action" data-context="{'action_name': 'action_move_out_invoice_type'}" href="#" class=" oe_kanban_action oe_kanban_action_a">Invoices</a>
-              
-          </div>
-          <div id="sale_purchase_refund" modifiers="{}">
-              <a modifiers="{}" data-type="object" data-name="open_action" data-context="{'action_name': 'action_move_out_refund_type'}" href="#" class=" oe_kanban_action oe_kanban_action_a">Credit Notes</a>
-              
-          </div>
-<div modifiers="{}">
-<a modifiers="{}" data-type="object" data-name="action_open_reconcile" href="#" class=" oe_kanban_action oe_kanban_action_a">Payments Matching</a>
-</div>
 
-          <div modifiers="{}">
-              
-          </div>
-      </div>
 
-       <div class="col-4 o_kanban_card_manage_section o_kanban_manage_new" modifiers="{}">
-          <div class="o_kanban_card_manage_title" modifiers="{}">
-              <span modifiers="{}">New</span>
-          </div>
-          <div modifiers="{}">
-              <a modifiers="{}" data-type="object" data-name="action_create_new" href="#" class=" oe_kanban_action oe_kanban_action_a">
-                  <span modifiers="{}">Invoice</span>
-                  
-              </a>
-          </div>
-          <div modifiers="{}">
-              <a modifiers="{}" data-type="object" data-name="action_create_new" data-context="{'refund':True}" href="#" class=" oe_kanban_action oe_kanban_action_a">
-                  <span modifiers="{}">Credit Note</span>
-                  
-              </a>
-          </div>
-          <div modifiers="{}">
-              <a class="o_button_upload_bill" journal_type="sale" modifiers="{}">
-                  <span modifiers="{}">Upload Invoices</span>
-              </a>
-          </div>
-      </div>
-
-       <div class="col-4 o_kanban_card_manage_section o_kanban_manage_reports" modifiers="{}">
-          <div class="o_kanban_card_manage_title" modifiers="{}">
-              <span modifiers="{}">Reporting</span>
-          </div>
-          <div modifiers="{}">
-              <a modifiers="{}" data-type="action" data-name="243" href="#" class=" oe_kanban_action oe_kanban_action_a">Invoices Analysis</a>
-              
-          </div>
-      
-<div modifiers="{}">
-<a modifiers="{}" data-type="action" data-name="301" href="#" class=" oe_kanban_action oe_kanban_action_a">Aged Receivables</a>
-</div>
-
-
-<div modifiers="{}">
-<a modifiers="{}" data-type="action" data-name="320" href="#" class=" oe_kanban_action oe_kanban_action_a">Follow-up reports</a>
-</div>
-</div>
-  </div>
-
-  
-  
-
-  <div class="o_kanban_card_manage_settings row" modifiers="{}">
-      <div class="col-8" modifiers="{}">
-          <ul class="oe_kanban_colorpicker" data-field="color" modifiers="{}">
-
-<li>
-<a role="menuitem" href="#" data-color="0" class="oe_kanban_color_0" title="No color" aria-label="No color"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="1" class="oe_kanban_color_1" title="Red" aria-label="Red"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="2" class="oe_kanban_color_2" title="Orange" aria-label="Orange"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="3" class="oe_kanban_color_3" title="Yellow" aria-label="Yellow"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="4" class="oe_kanban_color_4" title="Light blue" aria-label="Light blue"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="5" class="oe_kanban_color_5" title="Dark purple" aria-label="Dark purple"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="6" class="oe_kanban_color_6" title="Salmon pink" aria-label="Salmon pink"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="7" class="oe_kanban_color_7" title="Medium blue" aria-label="Medium blue"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="8" class="oe_kanban_color_8" title="Dark blue" aria-label="Dark blue"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="9" class="oe_kanban_color_9" title="Fushia" aria-label="Fushia"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="10" class="oe_kanban_color_10" title="Green" aria-label="Green"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="11" class="oe_kanban_color_11" title="Purple" aria-label="Purple"></a>
-</li>
-
-</ul>
-      </div>
-  </div>
-
-  <div class="row o_kanban_card_manage_settings" modifiers="{}">
-      <div class="col-6" modifiers="{}">
-          <div class="o_favorite o_field_widget" name="show_on_dashboard"><a href="#"><i class="fa fa-star" role="img" aria-label="Remove from Favorites"></i> Remove from Favorites</a></div>
-      </div>
-      <div class="col-6 text-right mt-1" modifiers="{}">
-          <a class="dropdown-item oe_kanban_action oe_kanban_action_a" modifiers="{}" data-type="edit" href="#">Configuration</a>
-      </div>
-  </div>
-
-      </div>
-  </div><div class="oe_kanban_color_11 o_kanban_record" modifiers="{}" tabindex="0" role="article">
-      
-      
-      
-  <div class="o_kanban_card_header" modifiers="{}">
-      <div class="o_kanban_card_header_title" modifiers="{}">
-          <div class="o_primary" modifiers="{}">
-              <a modifiers="{}" data-type="object" data-name="open_action" href="#" class=" oe_kanban_action oe_kanban_action_a"><span>Vendor Bills</span></a>
-              
-          </div>
-          <div class="o_secondary" title="Bills to pay" modifiers="{}">
-              <span></span>
-          </div>
-      </div>
-      <div class="o_kanban_manage_button_section" modifiers="{}">
-          <a class="o_kanban_manage_toggle_button" href="#" modifiers="{}"><i class="fa fa-ellipsis-v" aria-label="Selection" role="img" title="Selection" modifiers="{}"></i></a>
-      </div>
-  </div>
-
-      <div class="container o_kanban_card_content o_sample_data" modifiers="{}">
-          <div class="row" modifiers="{}">
-              
-              
-  <div class="col-12 col-sm-5 mb-3 mb-sm-0 o_kanban_primary_left" modifiers="{}">
-      
-      
-          
-          
-              <button class="btn btn-primary oe_kanban_action_button oe_kanban_action oe_kanban_action_button" journal_type="purchase" modifiers="{}" options="{}" data-type="object" data-name="action_create_vendor_bill" type="button">
-                  <span modifiers="{}">Upload</span>
-              </button>
-          
-          <a class="o_invoice_new oe_kanban_action oe_kanban_action_a" modifiers="{}" data-type="object" data-name="action_create_new" href="#">Create Manually</a>
-      
-  </div>
-  <div class="col-12 col-sm-7 o_kanban_primary_right" modifiers="{}">
-      
-      
-      
-      
-  </div>
-
-              
-          </div>
-          
-  <div class="o_dashboard_graph o_field_widget o_graph_barchart" name="kanban_dashboard_graph"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div><canvas style="display: block; height: 74px; width: 561px;" width="1122" height="148" class="chartjs-render-monitor"></canvas></div>
-
-      </div><div class="container o_kanban_card_manage_pane dropdown-menu" role="menu" modifiers="{}">
-          
-
-  
-  
-
-  
-  <div class="row" modifiers="{}">
-       <div class="col-4 o_kanban_card_manage_section o_kanban_manage_view" modifiers="{}">
-          <div class="o_kanban_card_manage_title" modifiers="{}">
-              <span modifiers="{}">View</span>
-          </div>
-          <div modifiers="{}">
-              
-              <a modifiers="{}" data-type="object" data-name="open_action" data-context="{'action_name': 'action_move_in_invoice_type'}" href="#" class=" oe_kanban_action oe_kanban_action_a">Bills</a>
-          </div>
-          <div id="sale_purchase_refund" modifiers="{}">
-              
-              <a modifiers="{}" data-type="object" data-name="open_action" data-context="{'action_name': 'action_move_in_refund_type'}" href="#" class=" oe_kanban_action oe_kanban_action_a">Refund</a>
-          </div>
-<div modifiers="{}">
-<a modifiers="{}" data-type="object" data-name="action_open_reconcile" href="#" class=" oe_kanban_action oe_kanban_action_a">Payments Matching</a>
-</div>
-
-          <div modifiers="{}">
-              
-          </div>
-      </div>
-
-       <div class="col-4 o_kanban_card_manage_section o_kanban_manage_new" modifiers="{}">
-          <div class="o_kanban_card_manage_title" modifiers="{}">
-              <span modifiers="{}">New</span>
-          </div>
-          <div modifiers="{}">
-              <a modifiers="{}" data-type="object" data-name="action_create_new" href="#" class=" oe_kanban_action oe_kanban_action_a">
-                  
-                  <span modifiers="{}">Bill</span>
-              </a>
-          </div>
-          <div modifiers="{}">
-              <a modifiers="{}" data-type="object" data-name="action_create_new" data-context="{'refund':True}" href="#" class=" oe_kanban_action oe_kanban_action_a">
-                  
-                  <span modifiers="{}">Refund</span>
-              </a>
-          </div>
-          
-      </div>
-
-       <div class="col-4 o_kanban_card_manage_section o_kanban_manage_reports" modifiers="{}">
-          <div class="o_kanban_card_manage_title" modifiers="{}">
-              <span modifiers="{}">Reporting</span>
-          </div>
-          <div modifiers="{}">
-              
-              <a modifiers="{}" data-type="action" data-name="242" href="#" class=" oe_kanban_action oe_kanban_action_a">Bills Analysis</a>
-          </div>
-      
-
-<div modifiers="{}">
-<a modifiers="{}" data-type="action" data-name="302" href="#" class=" oe_kanban_action oe_kanban_action_a">Aged Payables</a>
-</div>
-
-
-</div>
-  </div>
-
-  
-  
-
-  <div class="o_kanban_card_manage_settings row" modifiers="{}">
-      <div class="col-8" modifiers="{}">
-          <ul class="oe_kanban_colorpicker" data-field="color" modifiers="{}">
-
-<li>
-<a role="menuitem" href="#" data-color="0" class="oe_kanban_color_0" title="No color" aria-label="No color"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="1" class="oe_kanban_color_1" title="Red" aria-label="Red"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="2" class="oe_kanban_color_2" title="Orange" aria-label="Orange"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="3" class="oe_kanban_color_3" title="Yellow" aria-label="Yellow"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="4" class="oe_kanban_color_4" title="Light blue" aria-label="Light blue"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="5" class="oe_kanban_color_5" title="Dark purple" aria-label="Dark purple"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="6" class="oe_kanban_color_6" title="Salmon pink" aria-label="Salmon pink"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="7" class="oe_kanban_color_7" title="Medium blue" aria-label="Medium blue"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="8" class="oe_kanban_color_8" title="Dark blue" aria-label="Dark blue"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="9" class="oe_kanban_color_9" title="Fushia" aria-label="Fushia"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="10" class="oe_kanban_color_10" title="Green" aria-label="Green"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="11" class="oe_kanban_color_11" title="Purple" aria-label="Purple"></a>
-</li>
-
-</ul>
-      </div>
-  </div>
-
-  <div class="row o_kanban_card_manage_settings" modifiers="{}">
-      <div class="col-6" modifiers="{}">
-          <div class="o_favorite o_field_widget" name="show_on_dashboard"><a href="#"><i class="fa fa-star" role="img" aria-label="Remove from Favorites"></i> Remove from Favorites</a></div>
-      </div>
-      <div class="col-6 text-right mt-1" modifiers="{}">
-          <a class="dropdown-item oe_kanban_action oe_kanban_action_a" modifiers="{}" data-type="edit" href="#">Configuration</a>
-      </div>
-  </div>
-
-      </div>
-  </div><div class="oe_kanban_color_0 o_kanban_record" modifiers="{}" tabindex="0" role="article">
-      
-      
-      
-  <div class="o_kanban_card_header" modifiers="{}">
-      <div class="o_kanban_card_header_title" modifiers="{}">
-          <div class="o_primary" modifiers="{}">
-              <a modifiers="{}" data-type="object" data-name="open_action" href="#" class=" oe_kanban_action oe_kanban_action_a"><span>Miscellaneous Operations</span></a>
-              
-          </div>
-          
-      </div>
-      <div class="o_kanban_manage_button_section" modifiers="{}">
-          <a class="o_kanban_manage_toggle_button" href="#" modifiers="{}"><i class="fa fa-ellipsis-v" aria-label="Selection" role="img" title="Selection" modifiers="{}"></i></a>
-      </div>
-  </div>
-
-      <div class="container o_kanban_card_content" modifiers="{}">
-          <div class="row" modifiers="{}">
-              
-              
-              
-  <div class="col-12 col-sm-4 mb-3 mb-sm-0 o_kanban_primary_left" modifiers="{}">
-      <button class="btn btn-primary oe_kanban_action oe_kanban_action_button" modifiers="{}" options="{}" data-type="object" data-name="action_create_new" type="button">
-          <span modifiers="{}">New Entry</span>
-      </button>
-  </div>
-  <div class="col-12 col-sm-8 o_kanban_primary_right" modifiers="{}">
-      <div class="o_journal_activity_kanban o_field_widget" name="json_activity_data">
-
-<div class="row">
-<div class="col-8 o_mail_activity">
-<a href="#" class=" o_open_vat_report" data-res-id="1" data-id="1" data-model="account.move">
-  Tax return for February
-</a>
-</div>
-<div class="col-4 text-right">
-<span>03/07/2022</span>
-</div>
-</div>
-
-
-</div>
-      
-  </div>
-
-          </div>
-          
-      </div><div class="container o_kanban_card_manage_pane dropdown-menu" role="menu" modifiers="{}">
-          
-
-  
-  
-
-  
-  
-
-  
-  <div class="row" modifiers="{}">
-       <div class="col-4 o_kanban_card_manage_section o_kanban_manage_view" modifiers="{}">
-          <div class="o_kanban_card_manage_title" modifiers="{}">
-              <span modifiers="{}">View</span>
-          </div>
-          <div modifiers="{}">
-              <a modifiers="{}" data-type="object" data-name="open_action" data-context="{'action_name': 'action_move_journal_line'}" href="#" class=" oe_kanban_action oe_kanban_action_a">Journal Entries</a>
-          </div>
-          <div modifiers="{}">
-              <a modifiers="{}" data-type="object" data-name="open_action" data-context="{'action_name': 'action_move_journal_line', 'search_default_unposted': 1}" href="#" class=" oe_kanban_action oe_kanban_action_a">Entries to Review</a>
-          </div>
-          <div modifiers="{}">
-              
-          </div>
-      </div>
-
-       <div class="col-4 o_kanban_card_manage_section o_kanban_manage_new" modifiers="{}">
-          <div class="o_kanban_card_manage_title" modifiers="{}">
-              <span modifiers="{}">New</span>
-          </div>
-          <div modifiers="{}">
-              <a modifiers="{}" data-type="object" data-name="action_create_new" href="#" class=" oe_kanban_action oe_kanban_action_a">Journal Entry</a>
-          </div>
-      </div>
-
-       <div class="col-4 o_kanban_card_manage_section o_kanban_manage_operations" modifiers="{}">
-          <div class="o_kanban_card_manage_title" modifiers="{}">
-              <span modifiers="{}">Operations</span>
-          </div>
-          <div modifiers="{}">
-              <a modifiers="{}" data-type="object" data-name="open_action_with_context" data-context="{'action_name': 'action_validate_account_move', 'search_default_journal': True}" href="#" class=" oe_kanban_action oe_kanban_action_a">Post All Entries</a>
-          </div>
-      </div>
-  </div>
-
-  <div class="o_kanban_card_manage_settings row" modifiers="{}">
-      <div class="col-8" modifiers="{}">
-          <ul class="oe_kanban_colorpicker" data-field="color" modifiers="{}">
-
-<li>
-<a role="menuitem" href="#" data-color="0" class="oe_kanban_color_0" title="No color" aria-label="No color"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="1" class="oe_kanban_color_1" title="Red" aria-label="Red"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="2" class="oe_kanban_color_2" title="Orange" aria-label="Orange"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="3" class="oe_kanban_color_3" title="Yellow" aria-label="Yellow"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="4" class="oe_kanban_color_4" title="Light blue" aria-label="Light blue"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="5" class="oe_kanban_color_5" title="Dark purple" aria-label="Dark purple"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="6" class="oe_kanban_color_6" title="Salmon pink" aria-label="Salmon pink"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="7" class="oe_kanban_color_7" title="Medium blue" aria-label="Medium blue"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="8" class="oe_kanban_color_8" title="Dark blue" aria-label="Dark blue"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="9" class="oe_kanban_color_9" title="Fushia" aria-label="Fushia"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="10" class="oe_kanban_color_10" title="Green" aria-label="Green"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="11" class="oe_kanban_color_11" title="Purple" aria-label="Purple"></a>
-</li>
-
-</ul>
-      </div>
-  </div>
-
-  <div class="row o_kanban_card_manage_settings" modifiers="{}">
-      <div class="col-6" modifiers="{}">
-          <div class="o_favorite o_field_widget" name="show_on_dashboard"><a href="#"><i class="fa fa-star" role="img" aria-label="Remove from Favorites"></i> Remove from Favorites</a></div>
-      </div>
-      <div class="col-6 text-right mt-1" modifiers="{}">
-          <a class="dropdown-item oe_kanban_action oe_kanban_action_a" modifiers="{}" data-type="edit" href="#">Configuration</a>
-      </div>
-  </div>
-
-      </div>
-  </div><div class="oe_kanban_color_0 o_kanban_record" modifiers="{}" tabindex="0" role="article">
-      
-      
-      
-  <div class="o_kanban_card_header" modifiers="{}">
-      <div class="o_kanban_card_header_title" modifiers="{}">
-          <div class="o_primary" modifiers="{}">
-              <a modifiers="{}" data-type="object" data-name="open_action" href="#" class=" oe_kanban_action oe_kanban_action_a"><span>Bank</span></a>
-              
-          </div>
-          
-      </div>
-      <div class="o_kanban_manage_button_section" modifiers="{}">
-          <a class="o_kanban_manage_toggle_button" href="#" modifiers="{}"><i class="fa fa-ellipsis-v" aria-label="Selection" role="img" title="Selection" modifiers="{}"></i></a>
-      </div>
-  </div>
-
-      <div class="container o_kanban_card_content o_sample_data" modifiers="{}">
-          <div class="row" modifiers="{}">
-              
-  
-  <div id="dashboard_bank_cash_left" class="col-12 col-sm-5 mb-3 mb-sm-0 o_kanban_primary_left" modifiers="{}">
-      
-
-
-          
-              
-<button attrs="{'invisible': [('account_online_account_id', '!=', False)]}" class="btn btn-primary oe_kanban_action oe_kanban_action_button" modifiers="{&quot;invisible&quot;:[[&quot;account_online_account_id&quot;,&quot;!=&quot;,false]]}" options="{}" data-type="object" data-name="action_configure_bank_journal" type="button">Online Synchronization</button>
-
-          <div name="bank_journal_cta" class="mt-3 mt-sm-0" modifiers="{}">
-              <div name="bank_statement_create_button" modifiers="{}">
-                  <a class="oe_inline oe_kanban_action oe_kanban_action_a" modifiers="{}" data-type="object" data-name="create_bank_statement" href="#">Create</a><span name="button_import_placeholder" modifiers="{}">
-<span modifiers="{}">or <a modifiers="{}" data-type="object" data-name="import_statement" href="#" class=" oe_kanban_action oe_kanban_action_a">Import</a></span>
-</span> Statements
-              </div>
-          
-
-
-
-
-</div>
-      
-      
-  </div>
-  
-  <div id="dashboard_bank_cash_right" class="col-12 col-sm-7 o_kanban_primary_right" modifiers="{}">
-      
-      
-      
-  
-
-</div>
-
-              
-              
-          </div>
-          
-  <div class="o_dashboard_graph o_field_widget o_graph_linechart" name="kanban_dashboard_graph"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div><canvas style="display: block; height: 74px; width: 561px;" width="1122" height="148" class="chartjs-render-monitor"></canvas></div>
-
-      </div><div class="container o_kanban_card_manage_pane dropdown-menu" role="menu" modifiers="{}">
-          
-
-  
-  <div class="row" modifiers="{}">
-       <div class="col-4 o_kanban_card_manage_section o_kanban_manage_view" modifiers="{}">
-          <div class="o_kanban_card_manage_title" modifiers="{}">
-              <span role="separator" modifiers="{}">View</span>
-          </div>
-          <div modifiers="{}">
-              <a role="menuitem" modifiers="{}" data-type="object" data-name="open_action_with_context" data-context="{'action_name': 'action_bank_statement_tree', 'search_default_journal': True}" href="#" class=" oe_kanban_action oe_kanban_action_a">Statements</a>
-              
-          </div>
-          <div modifiers="{}">
-              <a role="menuitem" modifiers="{}" data-type="object" data-name="open_action_with_context" data-context="{'action_name': 'action_bank_statement_line', 'search_default_journal': True,'search_default_statement': 1}" href="#" class=" oe_kanban_action oe_kanban_action_a">Operations</a>
-          </div>
-          <div modifiers="{}">
-              <a role="menuitem" modifiers="{}" data-type="object" data-name="open_collect_money" href="#" class=" oe_kanban_action oe_kanban_action_a">Cust. Payments</a>
-          </div>
-          <div modifiers="{}">
-              <a role="menuitem" modifiers="{}" data-type="object" data-name="open_spend_money" href="#" class=" oe_kanban_action oe_kanban_action_a">Vendor Payments</a>
-          </div>
-          <div modifiers="{}">
-              <a role="menuitem" modifiers="{}" data-type="object" data-name="open_transfer_money" href="#" class=" oe_kanban_action oe_kanban_action_a">Internal Transfers</a>
-          </div>
-          <div modifiers="{}">
-              
-          </div>
-      </div>
-
-       <div class="col-4 o_kanban_card_manage_section o_kanban_manage_new" modifiers="{}">
-          <div class="o_kanban_card_manage_title" modifiers="{}">
-              <span role="separator" modifiers="{}">New</span>
-          </div>
-          
-<div modifiers="{}">
-<a modifiers="{}" data-type="object" data-name="import_statement" href="#" class=" oe_kanban_action oe_kanban_action_a">Import Statement</a>
-</div>
-<div name="bank_cash_commands" modifiers="{}">
-              
-                  <a role="menuitem" modifiers="{}" data-type="object" data-name="create_bank_statement" href="#" class=" oe_kanban_action oe_kanban_action_a">Statement</a>
-              
-              
-          </div>
-          <div modifiers="{}">
-              <a role="menuitem" modifiers="{}" data-type="object" data-name="create_customer_payment" href="#" class=" oe_kanban_action oe_kanban_action_a">Cust. Payment</a>
-          </div>
-          <div modifiers="{}">
-              <a role="menuitem" modifiers="{}" data-type="object" data-name="create_supplier_payment" href="#" class=" oe_kanban_action oe_kanban_action_a">Vendor Payment</a>
-          </div>
-          <div modifiers="{}">
-              <a role="menuitem" modifiers="{}" data-type="object" data-name="create_internal_transfer" href="#" class=" oe_kanban_action oe_kanban_action_a">Internal Transfer</a>
-          </div>
-      </div>
-
-       <div class="col-4 o_kanban_card_manage_section o_kanban_manage_reconciliation" modifiers="{}">
-          <div class="o_kanban_card_manage_title" modifiers="{}">
-              <span role="separator" modifiers="{}">Reconciliation</span>
-          </div>
-          <div modifiers="{}">
-              <a role="menuitem" modifiers="{}" data-type="object" data-name="open_action_with_context" data-context="{'action_name': 'action_account_reconcile_model', 'use_domain': ['|', ('match_journal_ids', '=', False), ('match_journal_ids', 'in', active_id)]}" href="#" class=" oe_kanban_action oe_kanban_action_a">Reconciliation Models</a>
-          </div>
-      
-<div modifiers="{}">
-<a modifiers="{}" data-type="action" data-name="298" href="#" class=" oe_kanban_action oe_kanban_action_a">Reconciliation Report</a>
-</div>
-</div>
-  </div>
-
-  
-  
-
-  
-  
-
-  <div class="o_kanban_card_manage_settings row" modifiers="{}">
-      <div class="col-8" modifiers="{}">
-          <ul class="oe_kanban_colorpicker" data-field="color" modifiers="{}">
-
-<li>
-<a role="menuitem" href="#" data-color="0" class="oe_kanban_color_0" title="No color" aria-label="No color"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="1" class="oe_kanban_color_1" title="Red" aria-label="Red"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="2" class="oe_kanban_color_2" title="Orange" aria-label="Orange"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="3" class="oe_kanban_color_3" title="Yellow" aria-label="Yellow"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="4" class="oe_kanban_color_4" title="Light blue" aria-label="Light blue"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="5" class="oe_kanban_color_5" title="Dark purple" aria-label="Dark purple"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="6" class="oe_kanban_color_6" title="Salmon pink" aria-label="Salmon pink"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="7" class="oe_kanban_color_7" title="Medium blue" aria-label="Medium blue"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="8" class="oe_kanban_color_8" title="Dark blue" aria-label="Dark blue"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="9" class="oe_kanban_color_9" title="Fushia" aria-label="Fushia"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="10" class="oe_kanban_color_10" title="Green" aria-label="Green"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="11" class="oe_kanban_color_11" title="Purple" aria-label="Purple"></a>
-</li>
-
-</ul>
-      </div>
-  </div>
-
-  <div class="row o_kanban_card_manage_settings" modifiers="{}">
-      <div class="col-6" modifiers="{}">
-          <div class="o_favorite o_field_widget" name="show_on_dashboard"><a href="#"><i class="fa fa-star" role="img" aria-label="Remove from Favorites"></i> Remove from Favorites</a></div>
-      </div>
-      <div class="col-6 text-right mt-1" modifiers="{}">
-          <a class="dropdown-item oe_kanban_action oe_kanban_action_a" modifiers="{}" data-type="edit" href="#">Configuration</a>
-      </div>
-  </div>
-
-      </div>
-  </div><div class="oe_kanban_color_0 o_kanban_record" modifiers="{}" tabindex="0" role="article">
-      
-      
-      
-  <div class="o_kanban_card_header" modifiers="{}">
-      <div class="o_kanban_card_header_title" modifiers="{}">
-          <div class="o_primary" modifiers="{}">
-              <a modifiers="{}" data-type="object" data-name="open_action" href="#" class=" oe_kanban_action oe_kanban_action_a"><span>Cash</span></a>
-              
-          </div>
-          
-      </div>
-      <div class="o_kanban_manage_button_section" modifiers="{}">
-          <a class="o_kanban_manage_toggle_button" href="#" modifiers="{}"><i class="fa fa-ellipsis-v" aria-label="Selection" role="img" title="Selection" modifiers="{}"></i></a>
-      </div>
-  </div>
-
-      <div class="container o_kanban_card_content o_sample_data" modifiers="{}">
-          <div class="row" modifiers="{}">
-              
-  
-  <div id="dashboard_bank_cash_left" class="col-12 col-sm-5 mb-3 mb-sm-0 o_kanban_primary_left" modifiers="{}">
-      
-
-
-      
-          
-          <button class="btn btn-primary oe_kanban_action oe_kanban_action_button" modifiers="{}" options="{}" data-type="object" data-name="create_cash_statement" type="button">New Transaction</button>
-      
-  </div>
-  
-  <div id="dashboard_bank_cash_right" class="col-12 col-sm-7 o_kanban_primary_right" modifiers="{}">
-      
-      
-      
-  
-
-</div>
-
-              
-              
-          </div>
-          
-  <div class="o_dashboard_graph o_field_widget o_graph_linechart" name="kanban_dashboard_graph"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div><canvas style="display: block; height: 75px; width: 561px;" width="1122" height="150" class="chartjs-render-monitor"></canvas></div>
-
-      </div><div class="container o_kanban_card_manage_pane dropdown-menu" role="menu" modifiers="{}">
-          
-
-  
-  <div class="row" modifiers="{}">
-       <div class="col-4 o_kanban_card_manage_section o_kanban_manage_view" modifiers="{}">
-          <div class="o_kanban_card_manage_title" modifiers="{}">
-              <span role="separator" modifiers="{}">View</span>
-          </div>
-          <div modifiers="{}">
-              
-              <a role="menuitem" modifiers="{}" data-type="object" data-name="open_action_with_context" data-context="{'action_name': 'action_view_bank_statement_tree', 'search_default_journal': True}" href="#" class=" oe_kanban_action oe_kanban_action_a">Statements</a>
-          </div>
-          <div modifiers="{}">
-              <a role="menuitem" modifiers="{}" data-type="object" data-name="open_action_with_context" data-context="{'action_name': 'action_bank_statement_line', 'search_default_journal': True,'search_default_statement': 1}" href="#" class=" oe_kanban_action oe_kanban_action_a">Operations</a>
-          </div>
-          <div modifiers="{}">
-              <a role="menuitem" modifiers="{}" data-type="object" data-name="open_collect_money" href="#" class=" oe_kanban_action oe_kanban_action_a">Cust. Payments</a>
-          </div>
-          <div modifiers="{}">
-              <a role="menuitem" modifiers="{}" data-type="object" data-name="open_spend_money" href="#" class=" oe_kanban_action oe_kanban_action_a">Vendor Payments</a>
-          </div>
-          <div modifiers="{}">
-              <a role="menuitem" modifiers="{}" data-type="object" data-name="open_transfer_money" href="#" class=" oe_kanban_action oe_kanban_action_a">Internal Transfers</a>
-          </div>
-          <div modifiers="{}">
-              
-          </div>
-      </div>
-
-       <div class="col-4 o_kanban_card_manage_section o_kanban_manage_new" modifiers="{}">
-          <div class="o_kanban_card_manage_title" modifiers="{}">
-              <span role="separator" modifiers="{}">New</span>
-          </div>
-          
-
-<div name="bank_cash_commands" modifiers="{}">
-              
-              
-                  <a role="menuitem" modifiers="{}" data-type="object" data-name="create_cash_statement" href="#" class=" oe_kanban_action oe_kanban_action_a">Statement</a>
-              
-          </div>
-          <div modifiers="{}">
-              <a role="menuitem" modifiers="{}" data-type="object" data-name="create_customer_payment" href="#" class=" oe_kanban_action oe_kanban_action_a">Cust. Payment</a>
-          </div>
-          <div modifiers="{}">
-              <a role="menuitem" modifiers="{}" data-type="object" data-name="create_supplier_payment" href="#" class=" oe_kanban_action oe_kanban_action_a">Vendor Payment</a>
-          </div>
-          <div modifiers="{}">
-              <a role="menuitem" modifiers="{}" data-type="object" data-name="create_internal_transfer" href="#" class=" oe_kanban_action oe_kanban_action_a">Internal Transfer</a>
-          </div>
-      </div>
-
-       <div class="col-4 o_kanban_card_manage_section o_kanban_manage_reconciliation" modifiers="{}">
-          <div class="o_kanban_card_manage_title" modifiers="{}">
-              <span role="separator" modifiers="{}">Reconciliation</span>
-          </div>
-          <div modifiers="{}">
-              <a role="menuitem" modifiers="{}" data-type="object" data-name="open_action_with_context" data-context="{'action_name': 'action_account_reconcile_model', 'use_domain': ['|', ('match_journal_ids', '=', False), ('match_journal_ids', 'in', active_id)]}" href="#" class=" oe_kanban_action oe_kanban_action_a">Reconciliation Models</a>
-          </div>
-      
-<div modifiers="{}">
-<a modifiers="{}" data-type="action" data-name="298" href="#" class=" oe_kanban_action oe_kanban_action_a">Reconciliation Report</a>
-</div>
-</div>
-  </div>
-
-  
-  
-
-  
-  
-
-  <div class="o_kanban_card_manage_settings row" modifiers="{}">
-      <div class="col-8" modifiers="{}">
-          <ul class="oe_kanban_colorpicker" data-field="color" modifiers="{}">
-
-<li>
-<a role="menuitem" href="#" data-color="0" class="oe_kanban_color_0" title="No color" aria-label="No color"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="1" class="oe_kanban_color_1" title="Red" aria-label="Red"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="2" class="oe_kanban_color_2" title="Orange" aria-label="Orange"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="3" class="oe_kanban_color_3" title="Yellow" aria-label="Yellow"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="4" class="oe_kanban_color_4" title="Light blue" aria-label="Light blue"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="5" class="oe_kanban_color_5" title="Dark purple" aria-label="Dark purple"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="6" class="oe_kanban_color_6" title="Salmon pink" aria-label="Salmon pink"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="7" class="oe_kanban_color_7" title="Medium blue" aria-label="Medium blue"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="8" class="oe_kanban_color_8" title="Dark blue" aria-label="Dark blue"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="9" class="oe_kanban_color_9" title="Fushia" aria-label="Fushia"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="10" class="oe_kanban_color_10" title="Green" aria-label="Green"></a>
-</li>
-
-<li>
-<a role="menuitem" href="#" data-color="11" class="oe_kanban_color_11" title="Purple" aria-label="Purple"></a>
-</li>
-
-</ul>
-      </div>
-  </div>
-
-  <div class="row o_kanban_card_manage_settings" modifiers="{}">
-      <div class="col-6" modifiers="{}">
-          <div class="o_favorite o_field_widget" name="show_on_dashboard"><a href="#"><i class="fa fa-star" role="img" aria-label="Remove from Favorites"></i> Remove from Favorites</a></div>
-      </div>
-      <div class="col-6 text-right mt-1" modifiers="{}">
-          <a class="dropdown-item oe_kanban_action oe_kanban_action_a" modifiers="{}" data-type="edit" href="#">Configuration</a>
-      </div>
-  </div>
-
-      </div>
-  </div><div class="o_kanban_record o_kanban_ghost"></div><div class="o_kanban_record o_kanban_ghost"></div><div class="o_kanban_record o_kanban_ghost"></div><div class="o_kanban_record o_kanban_ghost"></div><div class="o_kanban_record o_kanban_ghost"></div><div class="o_kanban_record o_kanban_ghost"></div></div>
-        
-        
-        
-       
 </body>
+
 </html>
